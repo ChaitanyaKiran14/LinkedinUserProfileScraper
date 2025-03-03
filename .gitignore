@@ -1,0 +1,41 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+C:/AdvanceLearnings/LinkedINScraper/LinkedinScraper/venv/
+
+# Environment variables and secrets
+.env
+C:/AdvanceLearnings/LinkedINScraper/LinkedinScraper/.env
+
+# Project outputs
+linkedin_profile_data.json
+*.json
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Chrome webdriver logs
+*.log
+chromedriver.exe
